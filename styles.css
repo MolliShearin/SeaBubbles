@@ -259,8 +259,9 @@ a.leftfoot:hover {color:rgb(248, 155, 48);text-decoration:underline rgb(248, 155
 }
 .firstbubblesdivider {
     position: absolute;
-    margin-left: 50%;
+    margin-left: 45%;
     margin-top: -83px;
+    width: 7%;
 }
 .divingphotoright {
     width: 300px;
