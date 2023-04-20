@@ -134,10 +134,11 @@ a.leftfoot:hover {color:rgb(248, 155, 48);text-decoration:underline rgb(248, 155
 
 /*LIGHT BLUE BANNER*/
 .linkbanner { 
-  font-size:2em;
+  font-size:1.75vw;
   text-align:center;
   background-color:#94BBDE;
-  padding: 10px;
+  padding-left: 8%;
+  padding-right: 8%;
 }
 
 a:link, a:visited {
@@ -148,9 +149,11 @@ a:link, a:visited {
   text-decoration: none;
   display: inline-block;
   margin: auto;
-  padding-left: 100px;
-  padding-right: 100px;
+  /* padding-left: 100px;
+  padding-right: 100px; */
   text-shadow: 2px 2px black;
+  padding-left: 7%;
+  padding-right: 7%;
 }
 
 a:hover, a:active {
@@ -195,8 +198,8 @@ a:hover, a:active {
   /* background-color: #aabeff; */
   background-color: #B7E8FD;
   border-radius: 30px; 
-  border: 5px solid #3F4C92;
-  
+  border: .25vw solid #3F4C92;
+  margin-right: 2%; 
 }
 
 .right {
@@ -205,8 +208,8 @@ a:hover, a:active {
   text-align: center;
   background-color:#3F4C92;
   border-radius: 30px;
-  border: 5px solid #B7E8FD;
-  font-size: 1.5em;
+  border: .25vw solid #B7E8FD;
+  font-size: 1.25vw;
   color: rgb(248, 155, 48);
 }
 
@@ -241,8 +244,10 @@ a:hover, a:active {
 .googlemap {
   background-color: #3F4C92;
   text-align: center;
-  margin-left: 30%;
-  margin-right: 30%;
-  border: 15px solid #3F4C92;
+  width: 600px;
+  height: 450px;
+  border: 20px solid #3F4C92;
+  margin-left: 50%;
+  transform: translate(-50%, 0); 
 }
 
