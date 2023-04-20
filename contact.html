@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Author: Molli Shearin-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chela+One&family=Modak&family=Rock+Salt&family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="titlebanner">SeaBubbles Scuba Diving</div>
+    <div class="linkbanner">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="tours.html">Tours</a>
+            <a href="faq.html">FAQ</a>
+            <a href="contact.html">Contact</a>
+            <a href="reviews.html">Reviews</a> 
+        </nav>
+    </div> <!--FOR PURPLE BANNER AT TVERY TOP -->
+    <div class="pictureandtext">
+        <img class="contactimage" src="scubafish.png" alt="Scuba diver">
+        <div class="hereforyou">We Are Here For You!</div>
+    </div>
+    <h1 class="diveadventure">DIVE INTO THE ADVENTURE!</h1>
+    <p class="formsubmittal">This form will be submitted through email directly to seabubbles@gmail.com</p>
+    <div class="contactus">
+        <form action="thankyou.html" method="get">
+            <div>
+                <!--name-->
+                <label for="FirstName">First Name 
+                    <input type="text" name="FirstName" id="FirstName" placeholder="Enter Your First Name" autofocus
+                        required>
+                </label>
+                <label for="LastName">Last Name
+                    <input type="text" name="LastName" id="LastName" placeholder="Enter Your Last Name">
+                </label><br>
+                <!--email-->
+                <label for="EnteredEmail">Email
+                    <input type="email" name="EnteredEmail" id="EnteredEmail" placeholder="Enter Your Email">
+                </label>
+                <!--phone number-->
+                <label for="PhoneNumber">Phone Number
+                    <input type="tel" name="PhoneNumber" id="PhoneNumber" placeholder="Enter Your Phone Number">
+                </label><br>
+                <!--experience level-->
+                <label for="ExperienceLevel">Experience Level</label>
+                    <select name="ExperienceLevel" id="ExperienceLevel">
+                        <option value="NoExperience">No Experience</option>
+                        <option value="LittleExperience">Little Experience</option>
+                        <option value="ModerateExperience">Moderate Experience</option>
+                        <option value="Certified">Certified</option>
+                    </select><br>
+                <label for="NumInGroup">How many people will be in your    group?  
+                    <input type="text" name="NumInGroup" id="NumInGroup" placeholder="Number In Group"><br>
+                </label>
+                <!--date selection-->
+                <label for="divedate">Select a day to dive</label>
+                    <input type="date" id="divedate" name="divedate">
+                <p>Please expect a response within the next 24 hours to get an estimate!</p>
+                <!--submit button-->
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+    <h2 class="contactinfo">DIRECT CONTACT INFORMATION</h2>
+    <div class="row">
+        <div class="column left">
+          <h2 style="text-decoration: underline">Phone Number</h2>
+          <h1>808-123-4567</h1>
+          <p>Since this is a small business with no home office, we may not be available to take your call right away. If this happens, please leave a message with the following information:</p><br>
+          <ul>
+            <li>Contact Information</li>
+            <li>Desired Day to Dive</li>
+            <li>Number of People in Your Group</li>
+            <li>How Much Experience the Group Has</li>
+          </ul><br>
+          <h2 style="text-decoration: underline">Email</h2>
+          <h1>seabubbles@gmail.com</h1>
+
+        </div>
+        <div class="column right">
+          <p>Please be aware of timezones when reaching out when you are not on Aleutian Standard Time</p><br>
+          <p>Time Zones</p>
+          <p>(North America Only)</p>
+          <div class="timezones">
+            <p>Pacific Time</p><br>
+            <p>3 Hours Ahead</p>
+          </div>
+          <div class="timezones">
+            <p>Mountain Time</p><br>
+            <p>4 Hours Ahead</p>
+          </div>
+          <div class="timezones">
+            <p>Central Time</p><br>
+            <p>5 Hours Ahead</p>
+          </div>
+          <div class="timezones">
+            <p>Eastern Time</p><br>
+            <p>6 Hours Ahead</p>
+          </div><br>
+          If you are traveling from outside of North America or outside of these timezones, please only email us!
+        </div>
+    </div>
+    <h2 class="contactinfo">LOCATION</h2>
+    <p class="formsubmittal">Tours will start at Kewalo Basin Harbor, in beautifl Honolulu, Hawaii</p>
+    <p class="formsubmittal">We offer free shuttles from Waikiki Beach hotels to the harbor!</p>
+    <div class="googlemap">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3717.481850707955!2d-157.86029078506292!3d21.29196848585634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c006dfd110bb0ad%3A0xa6c1f0643da0b85c!2sKewalo%20Basin%20Harbor!5e0!3m2!1sen!2sus!4v1681689329087!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</div>
+
+
+
+
+    <!--FOOTER CODE-->
+    <nav class="footernav">
+        <a href="index.html" class="leftfoot">home</a> <br> 
+       <a href="contact.html" class="leftfoot" style="margin-top:80px;">contact us</a>  
+        <p class="rightfoot">Follow Us!</p>
+       <!--LINK TO FB LOGO TO THEIR REAL FB--> 
+       <p><a href="https://www.facebook.com/SeaBubblesHawaii/" target=”_blank”>                               
+        <img src="fbicon.png" alt="FB" class="footerfb"></a>
+      </p>
+       <h1 class="centerfoot">SeaBubbles</h1>
+       <h1 class="centerfoot" style="font-size:40px;margin-top:-20px;color:rgb(248, 155, 48);">scuba diving</h1>
+     </nav>
+   <footer>
+     <p>© 2023 SeaBubbles Scuba Diving | All Rights Reserved.</p>
+   </footer>
+   
+    
+
+    
+</body>
+</html>
