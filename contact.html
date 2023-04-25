@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!--Author: Molli Shearin-->
+    <!--Author: Molli Shearin
+       Group: Seabubbles 4
+      Date: 4/24/23-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,9 +12,13 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Chela+One&family=Modak&family=Rock+Salt&family=Rubik+Moonrocks&display=swap" rel="stylesheet">
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Creepster&family=Homemade+Apple&family=Indie+Flower&family=Lilita+One&family=Monoton&family=Montserrat+Subrayada&family=Nosifer&family=Princess+Sofia&family=Tilt+Prism&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="msbody">
     <div class="titlebanner">SeaBubbles Scuba Diving</div>
     <div class="linkbanner">
         <nav>
@@ -22,14 +28,15 @@
             <a href="contact.html">Contact</a>
             <a href="reviews.html">Reviews</a> 
         </nav>
-    </div> <!--FOR PURPLE BANNER AT TVERY TOP -->
+    </div> 
     <div class="pictureandtext">
-        <img class="contactimage" src="scubafish.png" alt="Scuba diver">
+        <img class="mscontactimage" src="scubafish.png" alt="Scuba diver">
         <div class="hereforyou">We Are Here For You!</div>
     </div>
     <h1 class="diveadventure">DIVE INTO THE ADVENTURE!</h1>
     <p class="formsubmittal">This form will be submitted through email directly to seabubbles@gmail.com</p>
-    <div class="contactus">
+    <div class="contactuscontainer">
+      <div class="mscontactus">
         <form action="thankyou.html" method="get">
             <div>
                 <!--name-->
@@ -66,25 +73,33 @@
                 <!--submit button-->
                 <input type="submit" value="Submit">
             </div>
-        </form>
+        </form>  
     </div>
-    <h2 class="contactinfo">DIRECT CONTACT INFORMATION</h2>
-    <div class="row">
-        <div class="column left">
+    <!--<img src="seaturtle.jpg" alt="Coral" class="coralleft">
+    <img src="coral.png" alt="Coral" class="coralright"> -->
+  </div>
+    <div class="sectiondivider">
+      <img src="yellowline.png" alt="Line divider" class="msyellowline">
+      <img src="bubbles.png" alt="Bubbles" class="msbubbles">
+    </div>
+    <h2 class="mscontactinfo msheaders">DIRECT CONTACT INFORMATION</h2>
+    <div class="msrow">
+        <div class="mscolumn msleft">
           <h2 style="text-decoration: underline">Phone Number</h2>
           <h1>808-123-4567</h1>
-          <p>Since this is a small business with no home office, we may not be available to take your call right away. If this happens, please leave a message with the following information:</p><br>
-          <ul>
+          <p class="biggertext">Since this is a small business with no home office, we may not be available to take your call right away. If this happens, please leave a message with the following information:</p><br>
+          <ul class="biggertext">
             <li>Contact Information</li>
             <li>Desired Day to Dive</li>
             <li>Number of People in Your Group</li>
             <li>How Much Experience the Group Has</li>
           </ul><br>
+          <p class="biggertext">We will get back to you as soon as possible!</p>
           <h2 style="text-decoration: underline">Email</h2>
           <h1>seabubbles@gmail.com</h1>
 
         </div>
-        <div class="column right">
+        <div class="mscolumn msright">
           <p>Please be aware of time zones when reaching out when you are not on Aleutian Standard Time</p><br>
           <p>Time Zones</p>
           <p>(North America Only)</p>
@@ -107,35 +122,39 @@
           If you are traveling from outside of North America or outside of these timezones, please only email us!
         </div>
     </div>
-    <h2 class="contactinfo">LOCATION</h2>
+    <div class="sectiondivider">
+      <img src="yellowline.png" alt="Line divider" class="msyellowline">
+      <img src="bubbles.png" alt="Bubbles" class="msbubbles">
+    </div>
+    <h2 class="mscontactinfo msheaders">LOCATION</h2>
     <p class="formsubmittal">Tours will start at Kewalo Basin Harbor, in beautifl Honolulu, Hawaii</p>
     <p class="formsubmittal">We offer free shuttles from Waikiki Beach hotels to the harbor!</p>
-    <div class="googlemap">
+    <div class="msgooglemap">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3717.481850707955!2d-157.86029078506292!3d21.29196848585634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c006dfd110bb0ad%3A0xa6c1f0643da0b85c!2sKewalo%20Basin%20Harbor!5e0!3m2!1sen!2sus!4v1681689329087!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
-</div>
 
+   <!--FOOTER CODE-->
+  <nav class="footernav">
+    <div class="leftfoot">
+      <a href="index.html" class="leftfoot" style="font-size: 2vw;">home</a> <br> 
+      <a href="contact.html"  class="leftfoot" style="font-size: 2vw;">contact</a> 
+    </div>
+        
+    <div class="centerfoot">
+      <p style="font-size: 3vw;">SeaBubbles</p>
+      <p style="font-size:2.5vw;text-align:center;color:rgb(248, 155, 48);">scuba diving</p>
+    </div> 
 
+    <div class="rightfoot">
+      <p style="font-size: 2vw;">Follow Us!</p>
+      <p><a href="https://www.facebook.com/SeaBubblesHawaii/" target=”_blank”>                           
+      <img src="fbicon.png" alt="FB" style="width:60px; margin-left: 40%;"></a></p>  
+    </div>
 
-
-    <!--FOOTER CODE-->
-    <nav class="footernav">
-        <a href="index.html" class="leftfoot">home</a> <br> 
-       <a href="contact.html" class="leftfoot" style="margin-top:80px;">contact us</a>  
-        <p class="rightfoot">Follow Us!</p>
-       <!--LINK TO FB LOGO TO THEIR REAL FB--> 
-       <p><a href="https://www.facebook.com/SeaBubblesHawaii/" target=”_blank”>                               
-        <img src="fbicon.png" alt="FB" class="footerfb"></a>
-      </p>
-       <h1 class="centerfoot">SeaBubbles</h1>
-       <h1 class="centerfoot" style="font-size:40px;margin-top:-20px;color:rgb(248, 155, 48);">scuba diving</h1>
-     </nav>
-   <footer>
-     <p>© 2023 SeaBubbles Scuba Diving | All Rights Reserved.</p>
-   </footer>
-   
-    
-
-    
+  </nav>
+  <!--ACTUAL FOOTER -->
+  <footer>
+    <p>© 2023 SeaBubbles Scuba Diving | All Rights Reserved.</p>
+  </footer>
 </body>
 </html>

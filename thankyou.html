@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <script>
+    function printQuery() {
+      var query = window.location.search.substring(1);
+      var vars = query.split("&");
+
+      for (var i = 0; i < vars.length; i++) {
+        var pair = vars[i].split("=");
+          document.write(pair[0] + ": " + pair[1] + "<br />");
+      }
+    }
+  </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chela+One&family=Modak&family=Rock+Salt&family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Thank you</title>
+  
+</head>
+
+<body class="msbody">
+  <div class="titlebanner">SeaBubbles Scuba Diving</div>
+  <div class="linkbanner">
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="tours.html">Tours</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+        <a href="reviews.html">Reviews</a> 
+    </nav>
+  </div>
+  <img src="schooloffish.jpg" alt="School of fish" width="500" style="margin-left: 50%; transform: translate(-50% ,0)">
+  <div class="thankyoucontainer">
+    <h1>Thank you for contacting us! Please expect a response within 24-48 hours.</h1>
+
+    <script>
+      printQuery();
+    </script>
+  </div>
+ <!--FOOTER CODE-->
+ <nav class="footernav">
+  <div class="leftfoot">
+    <a href="index.html" class="leftfoot" style="font-size: 2vw;">home</a> <br> 
+    <a href="contact.html"  class="leftfoot" style="font-size: 2vw;">contact</a> 
+  </div>
+      
+  <div class="centerfoot">
+    <p style="font-size: 3vw">SeaBubbles</p>
+    <p style="font-size:2.5vw;text-align:center;color:rgb(248, 155, 48)">scuba diving</p>
+  </div> 
+
+  <div class="rightfoot">
+    <p style="font-size: 2vw;">Follow Us!</p>
+    <p><a href="https://www.facebook.com/SeaBubblesHawaii/" target=”_blank”>                           
+    <img src="fbicon.png" alt="FB" style="width:60px; margin-left: 40%;"></a></p>  
+  </div>
+
+</nav>
+<!--ACTUAL FOOTER -->
+<footer>
+  <p>© 2023 SeaBubbles Scuba Diving | All Rights Reserved.</p>
+</footer>
+
+
+
+
+</body>
+
+</html>
