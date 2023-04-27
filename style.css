@@ -1,0 +1,237 @@
+* { 
+    margin:auto;
+    font-family: 'Chela One', cursive;
+}
+/* LINKS LINK AND MORE LINKS */
+.titlebanner {
+font-size:3em;
+text-align:center;  
+background-color:#3F4C92;  
+color: white; 
+padding: 20px;
+text-shadow: 2px 2px black;
+border-bottom: 10px solid rgb(248, 155, 48); 
+}
+    
+.linkbanner {
+    font-size:1.75vw;
+    text-align:center;
+    background-color:#94BBDE;
+    padding-left: 8%;
+    padding-right: 8%;
+    
+}
+
+a:link, a:visited {  
+    color: rgb(255, 255, 255); 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: auto;
+    text-shadow:2px 2px black;
+    padding-left:7%;  
+    padding-right:7%;  
+}
+ 
+a:hover, a:active {  
+    background-color: #aabeff;   
+    border-radius:25px;
+    color:rgb(248, 155, 48);
+}
+
+/*THE SUBTITLE SETTINGS*/
+.subtitle { 
+    border-radius:25px;
+    text-align:center;
+    font-size:70px;
+    color:white;
+    text-shadow: 4px 4px black;
+    margin-top:2%;
+
+}
+.introtext { 
+    text-align:left;
+    margin-left:2%;
+    margin-top:5%;
+
+}
+.text { 
+    font-size:45px;
+    text-align:left;
+    margin-right:45%;
+    padding-bottom:2%;
+    background-color:#b7e8fd98;
+    border-radius:25px;
+
+}
+
+.contactbt { 
+    background-color:#3F4C92;
+    border-radius:95px;
+    float:left;
+    color:white;
+    padding:40px;
+    font-size:60px;
+    margin-left:0.5%;
+    text-decoration: none;
+    text-shadow: 2px 2px rgb(12, 12, 12);
+}
+a.contactbt:link {color:#ffffff;text-decoration:none;}
+a.contactbt:visited {color:#ffffff;text-decoration:none;}
+a.contactbt:hover {color:rgb(248, 155, 48);text-decoration:none;}
+
+
+/*PHOTOS------------------------------------------*/
+.mntpic { 
+    background-color:#b7e8fd98;
+    padding: 25px;
+    margin-top:-10%;
+    margin-right:-2%;
+    float:right;
+    border-radius:25px;
+}
+
+.indexpic { 
+    margin-top:5%;
+    display:flex;
+}
+
+.grouppic { 
+    background-color:#b7e8fd98;
+    padding: 25px;
+    width:50%;
+    position:relative;
+    z-index: 3;
+    border-radius:25px;
+
+}
+
+.smileunder { 
+    background-color:#b7e8fd98;
+    padding: 25px;
+    width:30%;
+    position:relative;
+    margin-right:-10%;
+    margin-top:-5%;
+    z-index: 2;
+    border-radius:25px;
+}
+/*BUBBLE DIVIDER------------------------------------------*/
+
+.bubblediv { 
+    display:flex;
+    align-content: center;
+    padding-bottom:40px;
+}
+
+/*COURSES------------------------------------------*/
+#allcourses { 
+    font-size:40px;
+    margin-top:70px;
+    text-align:center;
+    background-color:rgb(248, 155, 48);
+    border-radius:25px;
+    margin-left:450px;
+    margin-right:450px;
+}
+
+/* Three columns side by side */
+.column {
+    margin-top:100px;
+    float: left;
+    width: 32.3%;
+    margin-bottom: 250px;
+    padding: 0 8px;
+    
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #aae5ffc5;
+    padding:20px;
+    border-radius: 25px;
+}
+
+/* Some left and right padding inside the container */
+.container {
+    padding: 0 16px;
+    text-align:center;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #3F4C92;
+    border-radius:25px;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size:30px;
+}
+
+.button:hover {
+    background-color: rgb(248, 155, 48);
+}
+
+/*FOOTER------------------------------------------*/
+.footernav { /*Parent for flexboxing*/
+    display:flex;  
+    background-color: #3F4C92;
+    font-size:40px;
+    color:white;
+    text-shadow: 2px 2px rgb(12, 12, 12);
+   text-decoration:none;
+   border-radius:25px;
+
+   
+
+}
+.leftfoot {  /*HOME AND CONTACT LINKS*/
+    margin-left: 1%;
+    padding:0.5%;
+    color:white;
+}
+
+/*HOVER FT FOR LEFT FOOT LINKS*/
+a.leftfoot:link {color:#ffffff;text-decoration:none;}
+a.leftfoot:visited {color:#ffffff;text-decoration:none;}
+a.leftfoot:hover {color:rgb(248, 155, 48);text-decoration:none;}
+
+ 
+.centerfoot {  /*SEABUBBLES FOOTER TITLE*/
+    align-items: center;
+    text-align:center;
+    margin-left:20%;
+}
+
+.rightfoot {   /*FOLLOW US FB IMG RIGHT*/
+    margin-right:2%;
+    padding:0.5%;
+}
+
+footer {   /*SMALL FOOTER WITH COPYRIGHT STUFF*/
+    text-align:center;
+    background-color: #272f5f;
+    color:rgb(196, 196, 196);
+    padding:0.2%;
+    border-radius:25px;
+
+}
