@@ -245,3 +245,21 @@ footer {
     font-variant-caps: all-small-caps;
     color: black;
 }
+
+.faqcover {
+    background-image: url("images/faqpage.jpg");
+    height: 45em;
+    width: 100em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-self: center;
+}
+.faqcovertext {
+    font-size: 12em;
+    color: white;
+}
+.centerer {
+    display: flex;
+    justify-self: center;
+}

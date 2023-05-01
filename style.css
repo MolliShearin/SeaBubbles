@@ -1,0 +1,62 @@
+/*
+Author: Nicholas Troyer
+Date: 1/26/2023
+*/
+p {
+		font-family: "Papyrus", Times, fantasy;
+		font-size: 18px;
+		margin: auto;
+		padding: 10px;
+		background-color: red;
+		border: 5px grey double;
+		width: 50%;
+}
+body {
+	background-color: darkblue;
+	background-image: linear-gradient(darkblue, darkred);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+body.Milwaukee {
+	background-color: darkblue;
+	background-image: url("MilwaukeeGermanFest.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+nav {
+	background-color: orange;
+	width: 17.7%;
+	margin: auto;
+	border: 5px grey ridge;
+}
+img {
+		margin: auto;
+		display: flex;
+		align-content: center;
+}
+h1 {
+	background-color: cyan;
+	width: 23%;
+	margin: auto;
+	display: flex;
+	justify-items: center;
+}
+#hobbyHeader {
+	background-color: cyan;
+	width: 60%;
+	margin: auto;
+	display: flex;
+	align-content: center;
+	display: grid;
+	justify-items: center;
+	resize: both;
+	overflow: auto;
+}
+ul {
+	color: red;
+	display: grid;
+	justify-items: center;
+}
+div {
+	padding-bottom: 25px;
+}
