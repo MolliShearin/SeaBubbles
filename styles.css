@@ -78,7 +78,25 @@ a:active {
 /* Image and Centered text */
 .centered {
   position: absolute;
-  top: 50%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-family: 'Chela One', cursive;
+  color: white;
+  font-size: 100px;
+  
+}
+.sticks{
+  position: relative;
+  top: 50%;
+  width: 20px;
+}
+
+.circleimage{
+
+}
+
+.stars{
+      width: 10px;
+      border-radius: 20%;
 }
