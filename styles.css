@@ -254,12 +254,51 @@ footer {
     background-size: cover;
     display: flex;
     justify-self: center;
+    margin-bottom: 5em;
 }
 .faqcovertext {
-    font-size: 12em;
+    font-size: 8em;
     color: white;
 }
 .centerer {
     display: flex;
     justify-self: center;
 }
+
+@media only screen and (max-width: 800px) {
+    .divingphotoleft {
+        width: 0px;
+    }
+    .divingphotoright {
+      width: 0px;
+    }
+    .bubblesleft {
+        width: 0px;
+    }
+    .bubblesright {
+        width: 0px;
+    }
+  }
+  @media only screen and (max-width: 1336px) {
+    .faqcovertext {
+        font-size: 6em;
+        color: white;
+    }
+  }
+  @media only screen and (max-width: 1006px) {
+    .faqcovertext {
+        font-size: 4em;
+        color: white;
+    }
+    faqcover {
+        background-image: url("images/faqpage.jpg");
+        height: 45em;
+        width: 15em;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-self: center;
+        margin-bottom: 5em;
+    }
+  }
+  
