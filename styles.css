@@ -1,0 +1,84 @@
+.titlebanner {
+
+  font-size: 3em;
+
+  text-align: center;
+
+  background-color: #3F4C92;
+
+  color: white;
+
+  padding: 20px;
+
+  text-shadow: 2px 2px black;
+
+  border-bottom: 10px solid rgb(248, 155, 48);
+
+}
+
+
+
+
+
+
+.linkbanner {
+
+  font-size: 1.75vw;
+
+  text-align: center;
+
+  background-color: #94BBDE;
+
+  padding-left: 8%;
+
+  padding-right: 8%;
+
+}
+
+
+
+
+a:link,
+a:visited {
+
+
+
+  color: rgb(255, 255, 255);
+
+  text-align: center;
+
+  text-decoration: none;
+
+  display: inline-block;
+
+  margin: auto;
+
+  text-shadow: 2px 2px black;
+
+  padding-left: 7%;
+
+  padding-right: 7%;
+
+}
+
+
+
+
+a:hover,
+a:active {
+
+  background-color: #aabeff;
+
+  border-radius: 25px;
+
+  color: rgb(248, 155, 48);
+
+}
+
+/* Image and Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
